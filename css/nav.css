@@ -1,0 +1,44 @@
+.nav-menu {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+}
+.nav-menu ul.nav li {
+  float: left;
+  width: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+.nav-menu ul.nav li > ul {
+  display: none;
+}
+/* ul.nav > li > a:first-of-type {
+  border: 1px solid red;
+} */
+
+.nav-menu ul.nav:first-of-type > li::after {
+  content: '|';
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 12px;
+  right: -2px;
+  color: #ffffff;
+}
+.nav-menu ul.nav li:last-of-type::after {
+  content: '';
+}
+.nav-menu ul.nav li a {
+  width: 100%;
+  display: inline-block;
+  line-height: 0.5rem;
+  height: 0.5rem;
+  color: #ffffff;
+}
+.nav-menu ul.nav li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.nav-menu ul.nav li a:hover {
+  color: #ffffff;
+}

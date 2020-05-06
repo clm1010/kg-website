@@ -1,0 +1,379 @@
+.header {
+  height: 8.5rem;
+  background-image: url('../img/hd-001.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 二级标题 */
+.index {
+}
+
+.index h2 {
+  margin: 0;
+  height: 3.5rem;
+}
+
+.index h2 img {
+  max-width: 12rem;
+  position: relative;
+  top: 0.8rem;
+}
+
+/* 轮播图 */
+
+.carousel-area {
+  width: 100%;
+  height: auto;
+  max-height: 5.7rem;
+  position: relative;
+  display: table;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 6rem;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.carousel a {
+  display: block;
+}
+.carousel img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-pagination {
+  position: absolute;
+  z-index: 6;
+}
+
+.carousel-pagination .swiper-pagination-bullet {
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-left: 0.2rem !important;
+  text-align: center;
+  line-height: 0.26rem;
+  font-size: noraml;
+  color: #b3904f;
+  background-color: #fff;
+  border-radius: 0;
+  opacity: 0.8;
+}
+
+/* 右侧新闻内容 */
+.carousel-area .content {
+  width: 100%;
+  display: table-cell;
+  height: 100%;
+  background-image: url('../img/bg-001.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-area .content .content-list {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.carousel-area .content .content-list ul li {
+  max-width: 10.53rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  margin: 0.35rem auto;
+}
+.carousel-area .content .content-list ul li a {
+  display: inline-block;
+  width: 90%;
+  font-size: 0.26rem;
+  color: #555555;
+  margin-left: 0.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.carousel-area .content .content-list ul li::before {
+  content: '';
+  position: absolute;
+  width: 0.27rem;
+  height: 0.75rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #b8934f;
+}
+.carousel-area .content P {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  margin: 0;
+}
+
+/* 公司及资源 */
+.company {
+  width: 100%;
+  height: auto;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+  background-color: #f9f9f9;
+}
+.company h3 {
+  /* position: relative;
+  top: 0.8rem; */
+  margin: 0 auto;
+  text-align: center;
+}
+.company .company-bg {
+  width: 13.5rem;
+  height: 7rem;
+  margin: 0.4rem auto 0 auto;
+  background-image: url('../img/bg-002.png');
+  background-position: 285px center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.company-bg dl {
+  position: absolute;
+  color: #333;
+  margin: 0;
+  font-size: 0.22rem;
+}
+
+.company-bg dl dt,
+.company-bg dl dd {
+  margin: 0;
+}
+.company-bg dl dt {
+  position: absolute;
+  text-align: center;
+  width: 1.4rem;
+}
+.company-bg dl dd {
+  padding: 1px;
+}
+.company-bg .gs-js {
+  top: 0.3rem;
+  left: 3.48rem;
+}
+.company-bg .gs-js dt {
+  top: 0.4rem;
+  left: -1.6rem;
+}
+.company-bg .qy-y {
+  top: 0.3rem;
+  right: 3.7rem;
+}
+.company-bg .qy-y dt {
+  top: 0.4rem;
+  right: -1.4rem;
+}
+.company-bg .bz-cf {
+  top: 2.8rem;
+  right: 1.8rem;
+}
+.company-bg .bz-cf dt {
+  top: 0.4rem;
+  right: -1.6rem;
+}
+
+.company-bg .yy-qy {
+  bottom: 0.25rem;
+  right: 3.7rem;
+}
+.company-bg .yy-qy dt {
+  top: 1.2rem;
+  right: -0.2rem;
+}
+.company-bg .cy-fw {
+  bottom: 0.3rem;
+  left: 3.5rem;
+}
+.company-bg .cy-fw dt {
+  bottom: -0.5rem;
+  left: -0.2rem;
+}
+
+.company-bg .bs-cf {
+  top: 2.8rem;
+  left: 1.6rem;
+}
+
+.company-bg .bs-cf dt {
+  top: 0.4rem;
+  left: -1.6rem;
+}
+
+/* 股票 */
+.stock {
+  width: 100%;
+  height: 10rem;
+}
+.stock-top {
+  height: 2rem;
+}
+
+.stock-top img {
+  display: block;
+}
+.stock-main {
+  width: 100%;
+  height: calc(100% - 2rem);
+
+  position: relative;
+  overflow: hidden;
+}
+.stock-main .stock-main-left {
+  position: absolute;
+  top: 0;
+  left: 0.2rem;
+  bottom: 0;
+  width: 45%;
+  z-index: 6;
+}
+
+.stock-main .stock-main-left h3 {
+  padding-left: 1rem;
+}
+
+.stock-main .stock-main-left a,
+.stock-main .stock-main-left img {
+  display: block;
+}
+.stock-main .stock-main-left a {
+  width: 120%;
+  height: auto;
+  margin-top: 1rem;
+}
+.stock-main .stock-main-left a img {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+.stock-main .stock-main-right {
+  width: 50%;
+  height: 100%;
+  margin: 0 0 0 auto;
+  background-image: url('../img/bg-003.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stock-main-right {
+  position: relative;
+}
+.stock-main-right h4 {
+  position: absolute;
+  top: 0.2rem;
+  left: 1.2rem;
+}
+
+.stock-main-right .sec-info {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  right: 0.5rem;
+}
+.sec-info a {
+  display: block;
+  color: #fff;
+}
+
+.sec-info a dl {
+  display: table;
+  margin: 0.4rem 0;
+  background-color: #fff;
+  width: 90%;
+}
+.sec-info a dl dt {
+  display: table-cell;
+  width: 1.6rem;
+  height: 1.5rem;
+  background-color: #b3904f;
+}
+.sec-info a dl dt img {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 0.28rem;
+  margin-bottom: 0.1rem;
+}
+.sec-info a dl dt span {
+  display: block;
+  text-align: center;
+  /* padding: 0.2rem; */
+  font-size: 0.25rem;
+}
+.sec-info a dl dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sec-info a dl dd p {
+  margin: 0 0.2rem;
+  height: 1rem;
+  line-height: 2.2;
+  color: #b3904f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* 友情链接 */
+.friendship {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+}
+.friendship h5 {
+  text-align: center;
+}
+.friendship-scroll {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
+.friendship-scroll img {
+  display: block;
+  width: 100%;
+  /* height: 80px; */
+}
+
+.friendship-scroll .swiper-slide {
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}

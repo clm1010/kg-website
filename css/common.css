@@ -1,0 +1,194 @@
+.hd-top {
+  position: relative;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.hd-top h1 {
+  margin: 0;
+}
+.logo {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.36rem;
+}
+
+footer .footer-main {
+  position: relative;
+  height: 100%;
+  color: #ffffff;
+}
+
+.footer-main ul {
+  position: absolute;
+  top: 0.4rem;
+  left: 2rem;
+}
+.footer-main .footer-title {
+  font-size: 0.3rem;
+  line-height: 3;
+}
+.footer-main ul li {
+  line-height: 2.5;
+}
+.footer-main ul li span,
+.footer-main ul li b {
+  display: inline-block;
+}
+
+.footer-main ul li b {
+  vertical-align: top;
+}
+.footer-main p {
+  margin: 0;
+}
+
+.footer-main .footer-code {
+  position: absolute;
+  top: 0.66rem;
+  right: 2rem;
+}
+.footer-main .footer-bottom {
+  position: absolute;
+  width: auto;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  left: 0.1rem;
+  right: 0.1rem;
+  bottom: 0;
+  border-top: 3px solid #4e4e4e;
+}
+
+/* 二级导航 */
+.second-nav {
+  /* background-color: #f0f0f0; */
+}
+
+.second-nav nav {
+  height: 0.5rem;
+  line-height: 0.4rem;
+  background-color: #f0f0f0;
+}
+.second-nav nav span {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url('../img/nav-01.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+.second-nav nav ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.second-nav nav ul li {
+  float: left;
+}
+
+/* 三级导航 */
+.three-nav {
+  background-color: #fff;
+}
+.three-nav nav {
+  display: table;
+  margin: 0 auto;
+}
+.three-nav nav a {
+  display: inline-table;
+}
+.three-nav nav dl {
+  display: table-cell;
+  width: 3.55rem;
+  height: 2.65rem;
+  vertical-align: middle;
+
+  text-align: center;
+}
+.three-nav nav a dl dt {
+}
+.three-nav nav dt img {
+  margin: 0 auto;
+  display: block;
+  max-width: 0.92rem;
+  max-height: 0.92rem;
+}
+.three-nav nav dd {
+  margin: 0;
+  text-align: center;
+  font-size: 0.16rem;
+  font-weight: 500;
+}
+.three-nav-main dt {
+  display: block;
+  margin: 0 auto;
+  width: 0.75rem;
+  height: 0.75rem;
+
+  background-repeat: no-repeat;
+}
+.nav-gsjj dt {
+  background-image: url('../img/nav-2-2.png');
+  background-position: center center;
+  background-size: 0.65rem 0.55rem;
+}
+.nav-zzjg dt {
+  background-image: url('../img/nav-2-4.png');
+  background-position: center center;
+  background-size: 0.65rem 0.65rem;
+}
+.nav-glcjs dt {
+  background-image: url('../img/nav-2-6.png');
+  background-position: center center;
+  background-size: 0.67rem 0.64rem;
+}
+
+.nav-active .nav-gsjj dt {
+  background-image: url('../img/nav-2-1.png');
+}
+.nav-active .nav-zzjg dt {
+  background-image: url('../img/nav-2-3.png');
+}
+.nav-active .nav-glcjs dt {
+  background-image: url('../img/nav-2-5.png');
+}
+/* <img src="./img/nav-02.png" alt="" /> */
+.nav-active {
+  background-color: #9b9999;
+  color: #ffffff !important;
+}
+
+/* 分页 */
+.paging {
+  width: 100%;
+  margin: 0.6rem 0;
+  text-align: center;
+}
+.paging p {
+  display: inline-block;
+  margin: 0 0.2rem;
+}
+.paging .previous,
+.paging .next {
+  width: 0.37rem;
+  height: 0.37rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.paging .previous {
+  background-image: url('../img/pag-1.png');
+}
+.paging .next {
+  background-image: url('../img/pag-2.png');
+}
+.paging .pag span {
+  display: inline-block;
+}
+.paging .pag .previous-num {
+  margin-top: -0.6rem;
+}
