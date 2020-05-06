@@ -1,4 +1,6 @@
 /* 公司简介 */
+.company-journal-hd,
+.company-overview-hd,
 .company-profile-hd {
   height: 7rem;
   background-image: url('../img/hd-002.jpg');
@@ -246,7 +248,7 @@
 }
 .company-journal-ml-main .ml-main-list dl dt p {
   font-size: 0.35rem;
-  top: 0.9rem;
+  top: 1rem;
   right: 0.6rem;
   margin: 0;
 }

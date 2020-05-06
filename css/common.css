@@ -90,7 +90,9 @@ footer .footer-main {
 
 /* 三级导航 */
 .three-nav {
+  position: relative;
   background-color: #fff;
+  overflow: hidden;
 }
 .three-nav nav {
   display: table;
@@ -129,30 +131,78 @@ footer .footer-main {
 
   background-repeat: no-repeat;
 }
-.nav-gsjj dt {
-  background-image: url('../img/nav-2-2.png');
+.nav3_1-2 dt {
+  background-image: url('../img/nav-3-2.png');
   background-position: center center;
-  background-size: 0.65rem 0.55rem;
+  background-size: 0.64rem 0.64rem;
 }
-.nav-zzjg dt {
-  background-image: url('../img/nav-2-4.png');
+.nav3_7-8 dt {
+  background-image: url('../img/nav-3-8.png');
+  background-position: center center;
+  background-size: 0.64rem 0.64rem;
+}
+.nav3_9-10 dt {
+  background-image: url('../img/nav-3-10.png');
+  background-position: center center;
+  background-size: 0.64rem 0.64rem;
+}
+.nav3_11-12 dt {
+  background-image: url('../img/nav-3-12.png');
+  background-position: center center;
+  background-size: 0.64rem 0.72rem;
+}
+.nav3_13-14 dt {
+  background-image: url('../img/nav-3-14.png');
+  background-position: center center;
+  background-size: 0.64rem 0.64rem;
+}
+.nav3_15-16 dt {
+  background-image: url('../img/nav-3-16.png');
+  background-position: center center;
+  background-size: 0.63rem 0.64rem;
+}
+.nav3_17-18 dt {
+  background-image: url('../img/nav-3-18.png');
+  background-position: center center;
+  background-size: 0.64rem 0.64rem;
+}
+.nav3_3-4 dt {
+  background-image: url('../img/nav-3-4.png');
   background-position: center center;
   background-size: 0.65rem 0.65rem;
 }
-.nav-glcjs dt {
-  background-image: url('../img/nav-2-6.png');
+.nav3_5-6 dt {
+  background-image: url('../img/nav-3-6.png');
   background-position: center center;
-  background-size: 0.67rem 0.64rem;
+  background-size: 0.65rem 0.64rem;
 }
 
-.nav-active .nav-gsjj dt {
-  background-image: url('../img/nav-2-1.png');
+.nav-active .nav3_1-2 dt {
+  background-image: url('../img/nav-3-1.png');
 }
-.nav-active .nav-zzjg dt {
-  background-image: url('../img/nav-2-3.png');
+.nav-active .nav3_3-4 dt {
+  background-image: url('../img/nav-3-3.png');
 }
-.nav-active .nav-glcjs dt {
-  background-image: url('../img/nav-2-5.png');
+.nav-active .nav3_5-6 dt {
+  background-image: url('../img/nav-3-5.png');
+}
+.nav-active .nav3_7-8 dt {
+  background-image: url('../img/nav-3-7.png');
+}
+.nav-active .nav3_9-10 dt {
+  background-image: url('../img/nav-3-9.png');
+}
+.nav-active .nav3_11-12 dt {
+  background-image: url('../img/nav-3-11.png');
+}
+.nav-active .nav3_13-14 dt {
+  background-image: url('../img/nav-3-13.png');
+}
+.nav-active .nav3_15-16 dt {
+  background-image: url('../img/nav-3-15.png');
+}
+.nav-active .nav3_17-18 dt {
+  background-image: url('../img/nav-3-17.png');
 }
 /* <img src="./img/nav-02.png" alt="" /> */
 .nav-active {

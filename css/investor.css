@@ -1,0 +1,130 @@
+.periodic-report-hd {
+  height: 7rem;
+  background-image: url('../img/hd-003.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.periodic-report-ml {
+  width: 100;
+  height: 2.65rem;
+  border-top: 2px solid #dedede;
+  position: relative;
+}
+.periodic-report-ml img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.periodic-report-ml-main {
+  padding: 0 2.4rem;
+}
+.periodic-report-ml-main .ml-main-list dl {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  background-color: #efefef;
+  position: relative;
+}
+.periodic-report-ml-main .ml-main-list dl dt {
+  width: 3.2rem;
+  height: 2rem;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #b2904e;
+  position: relative;
+}
+.periodic-report-ml-main .ml-main-list dl dt h6,
+.periodic-report-ml-main .ml-main-list dl dt span,
+.periodic-report-ml-main .ml-main-list dl dt p,
+.periodic-report-ml-main .ml-main-list dl dt img {
+  position: absolute;
+  color: #fff;
+}
+.periodic-report-ml-main .ml-main-list dl dt h6 {
+  margin: 0;
+  font-size: 0.47rem;
+  top: 0.5rem;
+  left: 0.55rem;
+  letter-spacing: 0.01rem;
+}
+.periodic-report-ml-main .ml-main-list dl dt span {
+  font-size: 0.18rem;
+  top: 1.1rem;
+  left: 0.55rem;
+  letter-spacing: 0.01rem;
+}
+.periodic-report-ml-main .ml-main-list dl dt img {
+  top: 0.44rem;
+  right: 0.8rem;
+}
+.periodic-report-ml-main .ml-main-list dl dt p {
+  font-size: 0.35rem;
+  top: 1rem;
+  right: 0.6rem;
+  margin: 0;
+}
+.periodic-report-ml-main .ml-main-list dl dt i {
+  position: absolute;
+  top: 0.8rem;
+  right: -0.1rem;
+  width: 0.23rem;
+  height: 0.23rem;
+  background-image: url('../img/tool-1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.periodic-report-ml-main .ml-main-list dl .ml-dd-cont {
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  width: calc(100% - 7rem);
+  height: 100%;
+}
+.periodic-report-ml-main .ml-main-list dl .ml-dd-cont p {
+  width: 100%;
+  display: table-cell;
+  position: absolute;
+  top: 0.8rem;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.periodic-report-ml-main .ml-main-list .ml-dd-last {
+  width: 3.75rem;
+  height: 2.37rem;
+  position: absolute;
+  top: -0.06rem;
+  right: -0.3rem;
+  background-image: url('../img/tool-2-2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.periodic-report-ml-main .ml-main-list .ml-dd-last a {
+  position: absolute;
+  top: 0;
+  right: -0.3rem;
+  bottom: 0;
+  left: 0;
+  width: 2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: auto;
+  display: block;
+  background-color: #b3904e;
+  border-radius: 14px;
+  color: #ffffff;
+  text-align: center;
+}
