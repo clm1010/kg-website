@@ -123,6 +123,19 @@ footer .footer-main {
   font-size: 0.16rem;
   font-weight: 500;
 }
+.three-nav nav:first-of-type {
+  position: relative;
+}
+.three-nav nav:first-of-type::after {
+  content: ' ';
+  height: 2px;
+  border-bottom: 2px solid #dedede;
+  width: 300%;
+  position: absolute;
+  right: -100%;
+  left: -100%;
+  bottom: 0;
+}
 .three-nav-main dt {
   display: block;
   margin: 0 auto;

@@ -1,0 +1,201 @@
+/* 优质资源 */
+.ab-resources-hd,
+.industrial-hd {
+  height: 7rem;
+  background-image: url('../img/hd-004.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.industrial-title,
+.ab-resources-title {
+  width: 100;
+  height: 2.65rem;
+  /* border-top: 2px solid #dedede; */
+  position: relative;
+}
+.industrial-title img,
+.ab-resources-title img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.ab-resources-main {
+  background-color: #f0f0f0;
+  /* padding: 0 2.4rem; */
+}
+.resources-main-top {
+  width: 100%;
+  min-height: 5.2rem;
+  background-image: url('../img/bg-008.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  /* padding: 0.5rem 1rem; */
+}
+.resources-main-top .mt {
+  position: absolute;
+  top: auto;
+  right: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  margin: 1.4rem auto 0 auto;
+  text-align: center;
+}
+.resources-main-top .mt a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  text-align: center;
+}
+.resources-main-top .mt span {
+  display: inline-block;
+  margin-top: 0.2rem;
+  color: #fff;
+}
+.resources-main-top div img {
+  display: block;
+  margin: auto;
+}
+
+.resources-main-bottom {
+  padding: 0.8rem 2.4rem 1rem 2.4rem;
+}
+
+.resources-main-bottom img {
+  display: block;
+  width: 100%;
+}
+
+.industrial-main {
+}
+.industrial-main h1 {
+  margin: 0;
+  padding: 0 2.2rem;
+  text-align: left;
+  font-size: 0.3rem;
+  color: #b2904e;
+  padding-bottom: 0.7rem;
+}
+.content-four,
+.content-three,
+.content-sec {
+  text-align: center;
+  padding-top: 0.4rem;
+  padding-bottom: 0.7rem;
+}
+.content-five,
+.content-four,
+.content-sec {
+  background-color: #f0f0f0;
+}
+.content-sec h2 {
+}
+
+.content-four h4 img,
+.content-three h3 img,
+.content-sec h2 img {
+  display: block;
+  margin: auto;
+  max-width: 1.05rem;
+}
+.content-four p,
+.content-three p,
+.content-sec p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.content-four span,
+.content-three span,
+.content-sec span {
+  font-weight: bold;
+}
+
+.content-five {
+  display: table;
+  width: 100%;
+  padding-top: 0.2rem;
+}
+
+.content-five .five-left {
+  display: table-cell;
+  width: 45%;
+  text-align: right;
+  vertical-align: middle;
+}
+.content-five .five-right {
+  padding-top: 0.4rem;
+  padding-left: 1.6rem;
+  position: relative;
+}
+.content-five img {
+  display: block;
+}
+
+.content-five .five-left img {
+  margin-left: auto;
+}
+.content-five .five-right img {
+}
+.content-five .five-right p {
+  color: #b3904e;
+  font-weight: bold;
+}
+.five-right-top,
+.five-right-center,
+.five-right-bottom {
+  position: absolute;
+}
+.five-right-top {
+  top: 0.4rem;
+  left: 2.6rem;
+}
+.five-right-center {
+  top: 3.5rem;
+  left: 2.6rem;
+}
+.five-right-bottom {
+  bottom: -0.3rem;
+  left: 2.6rem;
+}
+.five-right-top p,
+.five-right-top span,
+.five-right-center p,
+.five-right-center span,
+.five-right-bottom p,
+.five-right-bottom span {
+  display: block;
+}
+.contenr-bottom {
+  text-align: center;
+
+  background-color: #f0f0f0;
+}
+
+.contenr-bottom p {
+  display: inline-block;
+  margin: 0 0.2rem;
+  padding: 0.6rem 0;
+}
+.contenr-bottom p img {
+  display: block;
+  max-width: 2rem;
+  margin: auto;
+  border: 8px solid #d8d8d8;
+}
+.contenr-bottom p span {
+  display: block;
+  font-weight: 500;
+}
+.contenr-bottom b {
+  display: block;
+  font-size: 0.3rem;
+  font-weight: 500;
+  padding: 0.4rem 0 0.8rem 0;
+}
