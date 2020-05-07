@@ -236,9 +236,13 @@ footer .footer-main {
 .paging .next {
   background-image: url('../img/pag-2.png');
 }
+.paging .pag {
+  color: #b1b0b0;
+  font-size: 0.14rem;
+}
 .paging .pag span {
   display: inline-block;
 }
-.paging .pag .previous-num {
+.paging .pag .previous-num1 {
   margin-top: -0.6rem;
 }
