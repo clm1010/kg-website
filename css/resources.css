@@ -1,4 +1,5 @@
 /* 优质资源 */
+.comprehensive-hd,
 .ab-resources-hd,
 .industrial-hd {
   height: 7rem;
@@ -7,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.comprehensive-title,
 .industrial-title,
 .ab-resources-title {
   width: 100;
@@ -14,6 +16,7 @@
   /* border-top: 2px solid #dedede; */
   position: relative;
 }
+.comprehensive-title img,
 .industrial-title img,
 .ab-resources-title img {
   position: absolute;
@@ -27,7 +30,7 @@
   background-color: #f0f0f0;
   /* padding: 0 2.4rem; */
 }
-.resources-main-top {
+.ab-resources-main .resources-main-top {
   width: 100%;
   min-height: 5.2rem;
   background-image: url('../img/bg-008.jpg');
@@ -38,7 +41,7 @@
   position: relative;
   /* padding: 0.5rem 1rem; */
 }
-.resources-main-top .mt {
+.ab-resources-main .resources-main-top .mt {
   position: absolute;
   top: auto;
   right: 0;
@@ -48,26 +51,26 @@
   margin: 1.4rem auto 0 auto;
   text-align: center;
 }
-.resources-main-top .mt a {
+.ab-resources-main .resources-main-top .mt a {
   display: inline-block;
   margin: 0 0.5rem;
   text-align: center;
 }
-.resources-main-top .mt span {
+.ab-resources-main .resources-main-top .mt span {
   display: inline-block;
   margin-top: 0.2rem;
   color: #fff;
 }
-.resources-main-top div img {
+.ab-resources-main .resources-main-top div img {
   display: block;
   margin: auto;
 }
 
-.resources-main-bottom {
+.ab-resources-main .resources-main-bottom {
   padding: 0.8rem 2.4rem 1rem 2.4rem;
 }
 
-.resources-main-bottom img {
+.ab-resources-main .resources-main-bottom img {
   display: block;
   width: 100%;
 }
@@ -198,4 +201,44 @@
   font-size: 0.3rem;
   font-weight: 500;
   padding: 0.4rem 0 0.8rem 0;
+}
+
+/* 综保区 */
+.comprehensive-main .main-top {
+  width: 100%;
+  min-height: 9.1rem;
+  background-image: url('../img/bg-010.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  color: #fff;
+
+  /* padding: 0.5rem 1rem; */
+}
+.main-top .top-left,
+.main-top .top-right {
+  position: absolute;
+  border: 1px solid red;
+}
+.main-top .top-left {
+  top: 3.2rem;
+  left: 16%;
+  width: 5.4rem;
+  height: 3.7rem;
+  position: relative;
+}
+.main-top .top-left h2 {
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+.main-top .top-left p {
+  letter-spacing: 0.07rem;
+  line-height: 2;
+}
+.main-top .top-right {
+  right: 2.2rem;
+  display: table;
 }
