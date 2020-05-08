@@ -217,28 +217,113 @@
 
   /* padding: 0.5rem 1rem; */
 }
-.main-top .top-left,
-.main-top .top-right {
+.main-top .main-top-content {
   position: absolute;
-  border: 1px solid red;
+  top: 2rem;
+  right: 0;
+  bottom: 2.4rem;
+  left: 10%;
+  border-bottom: 2px solid #fff;
 }
-.main-top .top-left {
-  top: 3.2rem;
-  left: 16%;
-  width: 5.4rem;
-  height: 3.7rem;
-  position: relative;
+.main-top .main-top-content .content-left {
+  position: absolute;
+  width: 5.6rem;
+  bottom: 0.4rem;
+  left: 0;
 }
-.main-top .top-left h2 {
+.main-top .main-top-content .content-left h2 {
   font-size: 0.8rem;
-  margin: 0;
   font-weight: 500;
+  margin: 0 0 0.4rem 0;
+  letter-spacing: 0.1rem;
 }
-.main-top .top-left p {
-  letter-spacing: 0.07rem;
-  line-height: 2;
+.main-top .main-top-content .content-left p {
+  margin: 0;
+  letter-spacing: 0.1rem;
 }
-.main-top .top-right {
-  right: 2.2rem;
+.main-top .main-top-content .content-right {
+  position: absolute;
+  bottom: 0.4rem;
+  right: 2%;
+}
+
+.main-top .main-top-content .content-right span {
+  display: inline-block;
+  /* width: 1.2rem; */
+  height: auto;
+  padding: 0.2rem;
+  border: 2px solid #fff;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  margin-right: 0.2rem;
+}
+
+.main-top .main-top-content .content-right span b {
+  display: block;
+  font-weight: normal;
+}
+.main-bottom {
+  padding: 1rem 0;
+}
+.main-bottom .main-bottom-title {
+  width: 3.8rem;
+  margin: 0 auto;
+  border-top: 5px solid #b3904e;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  color: #b3904e;
+  font-size: 0.3rem;
+}
+.main-bottom .main-bottom-title h3 {
+  margin: 0.2rem 0 0 0;
+}
+.main-bottom-title b {
+  display: block;
+}
+
+.main-bottom-content {
   display: table;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.main-bottom-content dl {
+  display: table-cell;
+}
+
+.main-bottom-content dl dd {
+  margin: 0;
+  padding: 0.1rem 0;
+  color: #b2904e;
+}
+
+.introduce-hd {
+  height: 7rem;
+  background-image: url('../img/hd-005.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.introduce .introduce-main {
+  border: 1px solid red;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.introduce-main a {
+  width: 2.6rem;
+  height: 1.6rem;
+  border: 1px solid red;
+  display: inline-block;
+  margin: 0.1rem 0.12rem;
+
+  vertical-align: middle;
+}
+.introduce-main img {
+  display: block;
+  margin: auto;
+  width: 2rem;
+  height: auto;
 }

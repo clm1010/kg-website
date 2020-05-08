@@ -143,6 +143,9 @@ footer {
   .company-culture-ml-main {
     padding: 0 1.4rem !important;
   }
+  .main-top .main-top-content .content-left h2 {
+    font-size: 0.6rem !important;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -172,6 +175,10 @@ footer {
   .organization-ml-main,
   .company-culture-ml-main {
     padding: 0 1.4rem !important;
+  }
+
+  .main-top .main-top-content .content-left h2 {
+    font-size: 0.6rem !important;
   }
 }
 
@@ -206,6 +213,13 @@ footer {
   .company-culture-ml-main {
     padding: 0 2.4rem !important;
   }
+
+  .main-top .main-top-content .content-right {
+    right: 2.2rem !important;
+  }
+  .main-top .main-top-content .content-left h2 {
+    font-size: 0.8rem !important;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -227,5 +241,13 @@ footer {
   .organization-ml-main,
   .company-culture-ml-main {
     padding: 0 2.4rem !important;
+  }
+
+  .main-top .main-top-content .content-right {
+    right: 2.2rem !important;
+  }
+
+  .main-top .main-top-content .content-left h2 {
+    font-size: 0.8rem !important;
   }
 }
