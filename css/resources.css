@@ -306,7 +306,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.introduce .introduce-main {
+/* .introduce .introduce-main {
   border: 1px solid red;
   padding: 0;
   width: 80%;
@@ -326,4 +326,32 @@
   margin: auto;
   width: 2rem;
   height: auto;
+} */
+
+.introduce .introduce-main {
+  padding: 0.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.introduce-main a {
+  float: left;
+  width: 2.6rem;
+  height: 1.6rem;
+  border: 1px solid #cecece;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  margin-left: 0.36rem;
+  position: relative;
+}
+.introduce-main a:hover {
+  box-shadow: 5px 5px 5px 5px #cecece;
+}
+.introduce-main img {
+  position: absolute;
+  margin: auto;
+  width: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

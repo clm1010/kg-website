@@ -144,7 +144,10 @@ footer {
     padding: 0 1.4rem !important;
   }
   .main-top .main-top-content .content-left h2 {
-    font-size: 0.6rem !important;
+    font-size: 0.6 rem !important;
+  }
+  .introduce .introduce-main a {
+    margin-left: 0.2rem;
   }
 }
 
@@ -179,6 +182,10 @@ footer {
 
   .main-top .main-top-content .content-left h2 {
     font-size: 0.6rem !important;
+  }
+
+  .introduce .introduce-main a {
+    margin-left: 0.2rem;
   }
 }
 
@@ -220,6 +227,9 @@ footer {
   .main-top .main-top-content .content-left h2 {
     font-size: 0.8rem !important;
   }
+  .introduce .introduce-main a {
+    margin-left: 0.36rem;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -249,5 +259,8 @@ footer {
 
   .main-top .main-top-content .content-left h2 {
     font-size: 0.8rem !important;
+  }
+  .introduce .introduce-main a {
+    margin-left: 0.36rem;
   }
 }
