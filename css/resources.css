@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.innovation-park-title,
 .comprehensive-title,
 .industrial-title,
 .ab-resources-title {
@@ -16,6 +17,7 @@
   /* border-top: 2px solid #dedede; */
   position: relative;
 }
+.innovation-park-title img,
 .comprehensive-title img,
 .industrial-title img,
 .ab-resources-title img {
@@ -354,4 +356,172 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+/* 研发创新园 */
+.innovation-park-hd {
+  height: 12rem;
+  background-image: url('../img/hd-006.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.innovation-park-main {
+  height: auto;
+  background-image: url('../img/bg-011.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.4rem;
+}
+.innovation-park-main .park-main-carousel {
+  position: relative;
+  width: 49%;
+  /* height: 7.4rem; */
+}
+.park-main-carousel .carousel-pagination {
+  position: relative;
+  height: 0.4rem;
+
+  text-align: center;
+  width: 100%;
+}
+.park-main-carousel .park-main-carousel-pagination {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: 0 auto;
+  color: #b3904e;
+  z-index: 1;
+}
+.park-main-carousel .btn-prev-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.6rem;
+  height: 0.4rem;
+  margin: 0 auto;
+}
+.park-main-carousel .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.park-main-carousel .swiper-slide p {
+  min-height: 4rem;
+  max-height: 5rem;
+  line-height: 2;
+  margin: 0;
+  padding: 0.4rem;
+  color: #b3904e;
+  overflow: hidden;
+  background-color: #fff;
+}
+.park-main-carousel .swiper-button-next,
+.park-main-carousel .swiper-button-prev {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.park-main-carousel .swiper-button-prev {
+  background-image: url('../img/pag-1.png');
+}
+.park-main-carousel .swiper-button-next {
+  background-image: url('../img/pag-2.png');
+}
+
+/* 右侧 */
+.park-main-right {
+  width: auto;
+}
+
+.park-main-right {
+  width: 50%;
+
+  position: relative;
+  padding-top: 0.2rem;
+}
+.park-main-right a {
+  display: inline-block;
+  width: 1.72rem;
+  height: 1.68rem;
+  margin: auto auto 0.4rem 0.4rem;
+  padding: 0.1rem;
+  background-color: #e4e3e3;
+  border: 0.14rem solid #fff;
+  border-radius: 10px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 50px 15px rgba(200, 200, 200, 0.9);
+}
+
+.park-main-right a:hover {
+  box-shadow: 0px 0px 50px 15px rgba(150, 150, 150, 0.9);
+  transition: box-shadow 0.5s;
+}
+.park-main-right a p {
+  margin: 0;
+  width: 100%;
+  height: 65%;
+  position: relative;
+}
+.park-main-right a p img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.park-main-right a span {
+  display: block;
+  width: 100%;
+  height: 34%;
+  text-align: center;
+}
+.park-main-right a span b {
+  display: block;
+  font-weight: 500;
+}
+
+.innovation-park-address .dz-title {
+  margin: 0.7rem 0;
+}
+.innovation-park-address .dz-title img {
+  display: block;
+  width: 1.26rem;
+  height: 1.1rem;
+  margin: 0 auto;
+}
+
+.innovation-park-address .dz-content {
+  width: 100%;
+  height: auto;
+  background-image: url('../img/address-bg-2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.dz-content .dz-content-left {
+  position: relative;
+  width: 40%;
+}
+.dz-content .dz-content-left img {
+  display: block;
+  width: 100%;
+}
+.dz-content .dz-content-left p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
 }

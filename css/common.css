@@ -58,6 +58,30 @@ footer .footer-main {
   border-top: 3px solid #4e4e4e;
 }
 
+/* 友情链接 */
+.footer-main .footer-links {
+  position: absolute;
+  right: 6%;
+  width: 6.8rem;
+}
+.footer-main .footer-links h6 {
+  font-size: 0.26rem;
+}
+.footer-main .footer-links p {
+  margin: 0.2rem 0;
+}
+.footer-main .footer-links p a {
+  display: inline-block;
+  width: 1.4rem;
+  height: 0.3rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1.8;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 0.02rem;
+  font-size: 0.16rem;
+}
 /* 二级导航 */
 .second-nav {
   /* background-color: #f0f0f0; */
