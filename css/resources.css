@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bonded-factory-title,
+.apartment-title,
+.laboratory-title,
+.b-factory-title,
 .a-factory-title,
 .innovation-park-title,
 .comprehensive-title,
@@ -18,6 +22,10 @@
   /* border-top: 2px solid #dedede; */
   position: relative;
 }
+.bonded-factory-title img,
+.apartment-title img,
+.laboratory-title img,
+.b-factory-title img,
 .a-factory-title img,
 .innovation-park-title img,
 .comprehensive-title img,
@@ -534,31 +542,78 @@
   color: #fff;
 }
 
-/*  A区标厂*/
+/*  A区标厂 B区标厂 实验室 公寓楼*/
+.bonded-factory-hd,
+.laboratory-hd,
+.b-factory-hd,
 .a-factory-hd {
   height: 12rem;
-  background-image: url('../img/hd-007.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.a-factory-hd {
+  background-image: url('../img/hd-007.jpg');
+}
+.b-factory-hd {
+  background-image: url('../img/hd-008.jpg');
+}
+.laboratory-hd {
+  background-image: url('../img/hd-009.jpg');
+}
+.apartment-hd {
+  background-image: url('../img/hd-010.jpg');
+}
+.bonded-factory-hd {
+  background-image: url('../img/hd-011.jpg');
+}
 
 .a-factory .a-factory-title {
 }
-
+.bonded-factory-main,
+.apartment-main,
+.laboratory-main,
+.b-factory-main,
 .a-factory-main {
   height: auto;
-  background-image: url('../img/bg-012.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0.4rem;
 }
+.bonded-factory-main {
+  background-image: url('../img/bg-015.jpg');
+}
+.apartment-main {
+  background-image: url('../img/bg-015.jpg');
+}
+.laboratory-main {
+  background-image: url('../img/bg-014.jpg');
+}
+.b-factory-main {
+  background-image: url('../img/bg-013.jpg');
+}
+.a-factory-main {
+  background-image: url('../img/bg-012.jpg');
+}
+
+.bonded-factory-main .bonded-factory-carousel,
+.apartment-main .apartment-carousel {
+  width: 56%;
+  margin-left: 0.4rem;
+}
+.bonded-factory-main .bonded-factory-carousel,
+.laboratory-main .laboratory-carousel,
+.b-factory-main .b-factory-carousel,
 .a-factory-main .a-factory-carousel {
   position: relative;
   width: 49%;
   /* height: 7.4rem; */
 }
+.bonded-factory-carousel .carousel-pagination,
+.apartment-carousel .carousel-pagination,
+.laboratory-carousel .carousel-pagination,
+.b-factory-carousel .carousel-pagination,
 .a-factory-carousel .carousel-pagination {
   position: relative;
   height: 0.4rem;
@@ -566,6 +621,10 @@
   text-align: center;
   width: 100%;
 }
+.bonded-factory-carousel .bonded-factory-carousel-pagination,
+.apartment-carousel .apartment-carousel-pagination,
+.laboratory-carousel .laboratory-carousel-pagination,
+.b-factory-carousel .b-factory-carousel-pagination,
 .a-factory-carousel .a-factory-carousel-pagination {
   position: absolute;
   top: 0;
@@ -579,6 +638,10 @@
   color: #b3904e;
   z-index: 1;
 }
+.bonded-factory-carousel .btn-prev-next,
+.apartment-carousel .btn-prev-next,
+.laboratory-carousel .btn-prev-next,
+.b-factory-carousel .btn-prev-next,
 .a-factory-carousel .btn-prev-next {
   position: absolute;
   top: 0;
@@ -589,16 +652,28 @@
   height: 0.4rem;
   margin: 0 auto;
 }
+.bonded-factory-carousel .swiper-slide img,
+.apartment-carousel .swiper-slide img,
+.laboratory-carousel .swiper-slide img,
+.b-factory-carousel .swiper-slide img,
 .a-factory-carousel .swiper-slide img {
   display: block;
   width: 100%;
 }
+.bonded-factory-carousel .swiper-slide .slider-yfjs-img,
+.apartment-carousel .swiper-slide .slider-yfjs-img,
+.laboratory-carousel .swiper-slide .slider-yfjs-img,
+.b-factory-carousel .swiper-slide .slider-yfjs-img,
 .a-factory-carousel .swiper-slide .slider-yfjs-img {
   position: absolute;
   top: 0;
   width: 0.8rem;
   height: 0.8rem;
 }
+.bonded-factory-carousel .swiper-slide p,
+.apartment-carousel .swiper-slide p,
+.laboratory-carousel .swiper-slide p,
+.b-factory-carousel .swiper-slide p,
 .a-factory-carousel .swiper-slide p {
   min-height: 4rem;
   max-height: 5rem;
@@ -609,30 +684,68 @@
   overflow: hidden;
   background-color: #fff;
 }
+.bonded-factory-carousel .swiper-button-next,
+.bonded-factory-carousel .swiper-button-prev,
+.apartment-carousel .swiper-button-next,
+.apartment-carousel .swiper-button-prev,
+.laboratory-carousel .swiper-button-next,
+.laboratory-carousel .swiper-button-prev,
+.b-factory-carousel .swiper-button-next,
+.b-factory-carousel .swiper-button-prev,
 .a-factory-carousel .swiper-button-next,
 .a-factory-carousel .swiper-button-prev {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
 }
+.bonded-factory-carousel .swiper-button-prev,
+.apartment-carousel .swiper-button-prev,
+.laboratory-carousel .swiper-button-prev,
+.b-factory-carousel .swiper-button-prev,
 .a-factory-carousel .swiper-button-prev {
   background-image: url('../img/pag-1.png');
 }
+.bonded-factory-carousel .swiper-button-next,
+.apartment-carousel .swiper-button-next,
+.laboratory-carousel .swiper-button-next,
+.b-factory-carousel .swiper-button-next,
 .a-factory-carousel .swiper-button-next {
   background-image: url('../img/pag-2.png');
 }
-
+.bonded-factory-carousel p b,
+.apartment-carousel p b {
+  display: block;
+}
 /* 右侧 */
+.bonded-factory-right,
+.apartment-right,
+.laboratory-right,
+.b-factory-right,
+.a-factory-right,
 .park-main-right {
   width: auto;
 }
-
+/* 公寓楼 保税工厂 */
+.bonded-factory-right,
+.apartment-right {
+  width: 40%;
+  position: relative;
+  padding-top: 0.2rem;
+}
+.laboratory-right,
+.b-factory-right,
+.a-factory-right,
 .park-main-right {
   width: 50%;
 
   position: relative;
   padding-top: 0.2rem;
 }
+.bonded-factory-right a,
+.apartment-right a,
+.laboratory-right a,
+.b-factory-right a,
+.a-factory-right a,
 .park-main-right a {
   display: inline-block;
   width: 1.72rem;
@@ -645,17 +758,31 @@
   vertical-align: middle;
   box-shadow: 0px 0px 50px 15px rgba(200, 200, 200, 0.9);
 }
-
+.bonded-factory-right a:hover,
+.apartment-right a:hover,
+.laboratory-right a:hover,
+.b-factory-right a:hover,
+.a-factory-right a:hover,
 .park-main-right a:hover {
   box-shadow: 0px 0px 50px 15px rgba(150, 150, 150, 0.9);
   transition: box-shadow 0.5s;
 }
+.bonded-factory-right a p,
+.apartment-right a p,
+.laboratory-right a p,
+.b-factory-right a p,
+.a-factory-right a p,
 .park-main-right a p {
   margin: 0;
   width: 100%;
   height: 65%;
   position: relative;
 }
+.bonded-factory-right a p img,
+.apartment-right a p img,
+.laboratory-right a p img,
+.b-factory-right a p img,
+.a-factory-right a p img,
 .park-main-right a p img {
   position: absolute;
   top: 0;
@@ -664,20 +791,40 @@
   left: 0;
   margin: auto;
 }
+.bonded-factory-right a span,
+.apartment-right a span,
+.laboratory-right a span,
+.b-factory-right a span,
+.a-factory-right a span,
 .park-main-right a span {
   display: block;
   width: 100%;
   height: 34%;
   text-align: center;
 }
+.bonded-factory-right a span b,
+.apartment-right a span b,
+.laboratory-right a span b,
+.b-factory-right a span b,
+.a-factory-right a span b,
 .park-main-right a span b {
   display: block;
   font-weight: 500;
 }
 
+.bonded-factory-address .dz-title,
+.apartment-address .dz-title,
+.laboratory-address .dz-title,
+.b-factory-address .dz-title,
+.a-factory-address .dz-title,
 .innovation-park-address .dz-title {
   margin: 0.7rem 0;
 }
+.bonded-factory-address .dz-title img,
+.apartment-address .dz-title img,
+.laboratory-address .dz-title img,
+.b-factory-address .dz-title img,
+.a-factory-address .dz-title img,
 .innovation-park-address .dz-title img {
   display: block;
   width: 1.26rem;
@@ -685,6 +832,11 @@
   margin: 0 auto;
 }
 
+.bonded-factory-address .dz-content,
+.apartment-address .dz-content,
+.laboratory-address .dz-content,
+.b-factory-address .dz-content,
+.a-factory-address .dz-content,
 .innovation-park-address .dz-content {
   width: 100%;
   height: auto;
@@ -694,14 +846,29 @@
   background-size: cover;
   position: relative;
 }
+.bonded-factory-address .dz-content .dz-content-left,
+.apartment-address .dz-content .dz-content-left,
+.laboratory-address .dz-content .dz-content-left,
+.b-factory-address .dz-content .dz-content-left,
+.a-factory-address .dz-content .dz-content-left,
 .innovation-park-address .dz-content .dz-content-left {
   position: relative;
   width: 40%;
 }
+.bonded-factory-address .dz-content .dz-content-left img,
+.apartment-address .dz-content .dz-content-left img,
+.laboratory-address .dz-content .dz-content-left img,
+.b-factory-address .dz-content .dz-content-left img,
+.a-factory-address .dz-content .dz-content-left img,
 .innovation-park-address .dz-content .dz-content-left img {
   display: block;
   width: 100%;
 }
+.bonded-factory-address .dz-content .dz-content-left p,
+.apartment-address .dz-content .dz-content-left p,
+.laboratory-address .dz-content .dz-content-left p,
+.b-factory-address .dz-content .dz-content-left p,
+.a-factory-address .dz-content .dz-content-left p,
 .innovation-park-address .dz-content .dz-content-left p {
   position: absolute;
   top: 50%;
