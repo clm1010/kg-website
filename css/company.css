@@ -47,22 +47,22 @@
   display: table;
 }
 
-.xq-left {
+.company-profile-xq-bottom .xq-left {
   display: table-cell;
   width: 50%;
   padding-left: 2rem;
 }
-.xq-left img {
+.company-profile-xq-bottom .xq-left img {
   display: block;
   width: 100%;
 }
-.xq-right {
+.company-profile-xq-bottom .xq-right {
   display: table-cell;
   vertical-align: top;
   padding-left: 0.3rem;
   padding-right: 0.6rem;
 }
-.xq-right p {
+.company-profile-xq-bottom .xq-right p {
   margin-top: 0;
   margin-bottom: 0.2rem;
   text-indent: 0.4rem;
@@ -320,4 +320,306 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.honor-main {
+}
+
+.honor-main .honor-carousel {
+  /* width: 100%; */
+
+  /* margin-left: 0.4rem; */
+}
+.honor-main .honor-carousel {
+  position: relative;
+  width: 100%;
+  background-color: #f0edee;
+
+  /* height: 7.4rem; */
+}
+
+.honor-carousel .carousel-pagination {
+  position: relative;
+  height: 1.2rem;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.honor-carousel .honor-carousel-pagination {
+  position: absolute;
+  top: 0.4rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: 0 auto;
+  color: #b3904e;
+  z-index: 1;
+}
+
+.honor-carousel .btn-prev-next {
+  position: absolute;
+  top: 0.4rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.6rem;
+  height: 0.4rem;
+  margin: 0 auto;
+}
+
+.honor-carousel .swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 4.8rem;
+}
+
+/* .honor-carousel .swiper-slide .slider-yfjs-img {
+  position: absolute;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+} */
+
+.honor-carousel .swiper-button-next,
+.honor-carousel .swiper-button-prev {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.honor-carousel .swiper-button-prev {
+  background-image: url('../img/pag-1.png');
+}
+
+.honor-carousel .swiper-button-next {
+  background-image: url('../img/pag-2.png');
+}
+.honor-carousel p b {
+  display: block;
+}
+.honor-carousel .slide-bottom,
+.honor-carousel .slide-top {
+  display: table;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 12px 4px #aaaaaa;
+}
+.honor-carousel .slide-top {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.honor-carousel .slide-bottom {
+  margin-bottom: 1rem;
+}
+.honor-carousel .slide-bottom dl,
+.honor-carousel .slide-top dl {
+  display: table-cell;
+  margin: auto;
+}
+.honor-carousel .slide-bottom dl dd,
+.honor-carousel .slide-top dl dd {
+  text-align: center;
+}
+.honor-carousel .swiper-slide dl dd:first-of-type {
+  color: #b7934f;
+}
+
+/* 新闻详情 */
+.news-details-hd {
+  height: 7rem;
+  background-image: url('../img/hd-013.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-details-title {
+  width: 100;
+  height: 2.65rem;
+
+  position: relative;
+}
+.news-details-title img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.news-details-main {
+  width: 100%;
+  min-height: 10rem;
+  background-image: url('../img/bg-016.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-details-top {
+  padding-top: 0.4rem;
+  padding-left: 1.6rem;
+}
+.news-details-top h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.news-details-bottom {
+  margin-top: 0.4rem;
+  display: table;
+}
+
+.news-details-bottom .xq-left {
+  display: table-cell;
+  width: 50%;
+  padding-left: 1.6rem;
+}
+.news-details-bottom.xq-left img {
+  display: block;
+  width: 100%;
+}
+.news-details-bottom .xq-right {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 0.3rem;
+  padding-right: 0.6rem;
+}
+.news-details-bottom .xq-right p {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  text-indent: 0.4rem;
+  line-height: 2;
+}
+
+.news-details-footer {
+}
+.news-details-footer .news-details-footer-title {
+  width: 100;
+  height: 2.3rem;
+  position: relative;
+}
+.news-details-footer .news-details-footer-title img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.news-details-footer .news-details-footer-bottom {
+  display: table;
+  margin: auto;
+}
+.news-details-footer .news-details-footer-bottom span {
+  display: table-cell;
+}
+.news-details-footer .news-details-footer-bottom img {
+  display: block;
+  width: 100%;
+}
+
+/* 联系我们 */
+.contact-us-hd {
+  height: 7rem;
+  background-image: url('../img/hd-014.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-us {
+  position: relative;
+}
+.contact-us-main {
+  width: 100%;
+  height: 10.18rem;
+  background-image: url('../img/bg-018.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: table;
+}
+.contact-us-main .contact-us-left {
+  display: table-cell;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 0;
+}
+.contact-us-main .contact-us-right h6,
+.contact-us-main .contact-us-left h5 {
+  font-size: 0.24rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 2;
+}
+
+.contact-us-left ul {
+}
+
+.contact-us-left ul li {
+  padding: 0.25rem 0 0.25rem 2.6rem;
+  text-align: left;
+}
+
+.contact-us-right ul li span,
+.contact-us-left ul li span {
+  margin-right: 0.2rem;
+}
+.contact-us-right ul li b,
+.contact-us-left ul li b {
+  margin-right: 0.2rem;
+}
+.contact-us-left p {
+  text-align: left;
+  padding-left: 2.6rem;
+}
+.contact-us-left p img {
+  display: inline-block;
+}
+.contact-us-left p img:first-of-type {
+  width: 1rem;
+  margin-right: 0.4rem;
+}
+.contact-us-main .contact-us-right {
+  display: table-cell;
+  width: auto;
+  color: #fff;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 0;
+}
+.contact-us-main .contact-us-right h6 {
+  padding-left: 2rem;
+}
+.contact-us-right ul li {
+  padding: 0.25rem 0 0 1rem;
+  text-align: left;
+}
+
+/* 地图 */
+.contact-us-map {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+}
+.search-map {
+  position: absolute;
+  width: 2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  top: -0.2rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 0.6rem;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #aaaaaa;
+};
 }
