@@ -1,4 +1,5 @@
 /* 公司简介 */
+
 .company-journal-hd,
 .company-overview-hd,
 .company-profile-hd {
@@ -92,7 +93,7 @@
 /* 组织架构 员工风采 */
 .organization {
 }
-
+.honor-title,
 .organization-ml,
 .company-journal-ml {
   width: 100;
@@ -100,6 +101,7 @@
   border-top: 2px solid #dedede;
   position: relative;
 }
+.honor-title img,
 .organization-ml img,
 .company-journal-ml img {
   position: absolute;
@@ -310,4 +312,12 @@
   border-radius: 14px;
   color: #ffffff;
   text-align: center;
+}
+/* 资质荣誉 */
+.honor-hd {
+  height: 7rem;
+  background-image: url('../img/hd-012.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
