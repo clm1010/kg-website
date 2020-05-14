@@ -427,6 +427,9 @@
 .honor-carousel .swiper-slide dl dd:first-of-type {
   color: #b7934f;
 }
+.honor-carousel .swiper-slide dl dt {
+  margin: 0.1rem;
+}
 
 /* 新闻详情 */
 .news-details-hd {
@@ -621,5 +624,4 @@
   text-align: center;
   background-color: #fff;
   box-shadow: 0 0 10px 2px #aaaaaa;
-};
 }

@@ -173,6 +173,16 @@ footer .footer-main {
   background-position: center center;
   background-size: 0.64rem 0.64rem;
 }
+.nav3_3-4 dt {
+  background-image: url('../img/nav-3-4.png');
+  background-position: center center;
+  background-size: 0.65rem 0.65rem;
+}
+.nav3_5-6 dt {
+  background-image: url('../img/nav-3-6.png');
+  background-position: center center;
+  background-size: 0.65rem 0.64rem;
+}
 .nav3_7-8 dt {
   background-image: url('../img/nav-3-8.png');
   background-position: center center;
@@ -203,15 +213,25 @@ footer .footer-main {
   background-position: center center;
   background-size: 0.64rem 0.64rem;
 }
-.nav3_3-4 dt {
-  background-image: url('../img/nav-3-4.png');
+.nav3_17-18 dt {
+  background-image: url('../img/nav-3-18.png');
+  background-position: center center;
+  background-size: 0.64rem 0.64rem;
+}
+.nav3_19-20 dt {
+  background-image: url('../img/nav-3-20.png');
+  background-position: center center;
+  background-size: 0.68rem 0.65rem;
+}
+.nav3_21-22 dt {
+  background-image: url('../img/nav-3-22.png');
   background-position: center center;
   background-size: 0.65rem 0.65rem;
 }
-.nav3_5-6 dt {
-  background-image: url('../img/nav-3-6.png');
+.nav3_23-24 dt {
+  background-image: url('../img/nav-3-24.png');
   background-position: center center;
-  background-size: 0.65rem 0.64rem;
+  background-size: 0.65rem 0.65rem;
 }
 
 .nav-active .nav3_1-2 dt {
@@ -240,6 +260,21 @@ footer .footer-main {
 }
 .nav-active .nav3_17-18 dt {
   background-image: url('../img/nav-3-17.png');
+}
+.nav-active .nav3_19-20 dt {
+  background-image: url('../img/nav-3-19.png');
+  background-position: center center;
+  background-size: 0.68rem 0.65rem;
+}
+.nav-active .nav3_21-22 dt {
+  background-image: url('../img/nav-3-21.png');
+  background-position: center center;
+  background-size: 0.65rem 0.65rem;
+}
+.nav-active .nav3_23-24 dt {
+  background-image: url('../img/nav-3-23.png');
+  background-position: center center;
+  background-size: 0.65rem 0.65rem;
 }
 /* <img src="./img/nav-02.png" alt="" /> */
 .nav-active {
